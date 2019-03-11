@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.success .modal-content {
+  border-top: 15px solid #28a745;
+  border-bottom: 10px solid #28a745;
+}
+
+.danger .modal-content {
+  border-top: 15px solid #dc3545;
+  border-bottom: 10px solid #dc3545;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.success .title {
+  color: #28a745;
+}
+
+.danger .title {
+  color: #dc3545;
+}
+
+.modal-content {
+  font-size: 22px;
+  color: #8a8989;
+  padding: 5px 10px;
+  border-radius: 0;
+}
+
+.modal-contents {
+  margin-bottom: 2rem;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.modal .btn {
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 10px 35px;
+}
+
+.modal-body {
+  border: 1px solid #ccc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.separator {
+  border-width: 3px;
+  width: 20%;
+}
+
+.success .separator {
+  border-color: #28a745;
+}
+
+.danger .separator {
+  border-color: #dc3545;
+}
+
+.modal-footer-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  position: absolute;
+  font-size: 90px;
+  left: 50%;
+  margin-left: -45px;
+  top: -120px;
+}
+
+.fas {
+  background: #fff;
+  border-radius: 50px;
+}
+
+.fas::before {
+  border: 5px solid;
+  border-radius: 75px;
+}
